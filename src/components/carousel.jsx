@@ -5,19 +5,19 @@ export function Carousel_comp() {
   const slideData = [
     {
       title: "Action Classification",
-      src: "/code.jpg",
+      src: "/image1.png",
     },
     {
       title: "Action Recognition",
-      src: "/code.jpg",
+      src: "/image2.jpg",
     },
     {
       title: "Action Segmentation",
-      src: "/code.jpg",
+      src: "/image3.png",
     },
     {
       title: "Text to Action",
-      src: "/code.jpg",
+      src: "/image4.png",
     },
   ];
   return (
