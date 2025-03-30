@@ -1,5 +1,6 @@
 import { Aurora } from "@/components/aurora";
 import { Carousel_comp } from "@/components/carousel";
+import Footer from "@/components/footer";
 import Image from "next/image";
 
 export default function home() {
@@ -24,6 +25,8 @@ export default function home() {
         </div>
         
         <Carousel_comp/>
+
+        <Footer/>
       </div>
     </main>
   );
