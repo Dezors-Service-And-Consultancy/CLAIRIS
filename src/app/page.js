@@ -13,6 +13,7 @@ export default function home() {
           width={500}
           height={500}
           alt="Picture of the author"
+          unoptimized
         />
 
         <div className="text-3xl md:text-4xl font-bold font-main text-white text-center ml-5">
