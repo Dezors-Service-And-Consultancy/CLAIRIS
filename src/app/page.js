@@ -2,6 +2,7 @@ import { Aurora } from "@/components/aurora";
 import { Carousel_comp } from "@/components/carousel";
 import Footer from "@/components/footer";
 import Image from "next/image";
+import RewardsPage from "./blog/page";
 
 export default function home() {
   return (
@@ -27,7 +28,9 @@ export default function home() {
         
         <Carousel_comp/>
 
+        <a href="/blog">Blog</a>
         <Footer/>
+
       </div>
     </main>
   );
